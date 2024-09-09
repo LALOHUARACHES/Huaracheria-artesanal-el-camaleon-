@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarachería Artesanal "El Camaleón"</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f0f0f5;
+            color: #2b2b52;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://example.com/imagen-guarache.jpg'); /* Imagen de fondo de guarache */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        header {
+            background-color: rgba(26, 26, 64, 0.8); /* Fondo azul oscuro con transparencia */
+            color: black; /* Cambiado a negro */
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+        }
+        h1, h2, h3 {
+            color: black; /* Cambiado a negro */
+        }
+        .intro {
+            text-align: center;
+            padding: 50px 20px;
+            color: black; /* Cambiado a negro */
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px;
+            width: 30%;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: rgba(26, 26, 64, 0.8);
+            color: black; /* Cambiado a negro */
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact {
+            background-color: #e0dede;
+            padding: 30px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+        .contact form {
+            display: inline-block;
+            max-width: 600px;
+            text-align: left;
+        }
+        .contact label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+        .contact button {
+            background-color: #1a1a40;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #14142e;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Guarachería Artesanal "El Camaleón"</h1>
+    </header>
+
+    <section class="intro">
+        <h1>Estilo auténtico y calidad calentana</h1>
+        <p>Nuestros guaraches calentanos están hechos a mano con amor y dedicación. ¡Compra directo de la familia!</p>
+    </section>
+
+    <div class="container">
+        <section>
+            <h2>Nuestros Productos</h2>
+            <div class="products">
+                <!-- Producto 1 -->
+                <div class="product">
+                    <img src="https://example.com/guarache1.jpg" alt="Guarache Calentano Clásico">
+                    <h3>Guarache Calentano Clásico</h3>
+                    <p>Precio: $250 MXN</p>
+                </div>
+                <!-- Producto 2 (Guarache Bordado) -->
+                <div class="product">
+                    <img src="https://example.com/guarache2.jpg" alt="Guarache Bordado">
+                    <h3>Guarache Bordado</h3>
+                    <p>Precio: $350 MXN</p>
+                </div>
+                <!-- Producto 3 (Guarache de Cuero) -->
+                <div class="product">
+                    <img src="https://drive.google.com/uc?export=view&id=1vqAZP8XTiIcCrQUjSBNBVPno6CHYVKXk" alt="Guarache Artesanal de Cuero">
+                    <h3>Guarache Artesanal de Cuero</h3>
+                    <p>Precio: $215 MXN</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="contact">
+        <h2>Contáctanos</h2>
+        <p>¿Interesado en nuestros guaraches? Llena el formulario y nos pondremos en contacto contigo.</p>
+        <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Guarachería Artesanal "El Camaleón" - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
